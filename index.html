@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Switchable Tabs</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Tabs with HTML, CSS & JavaScript</h1>
+        <hr>
+        <div class="tabs">
+            <div class="tabs__sidebar">
+                <button class="tabs__button" data-for-tab="1">HTML</button>
+                <button class="tabs__button" data-for-tab="2">CSS</button>
+                <button class="tabs__button" data-for-tab="3">JavaScript</button>
+            </div>
+            <div class="tabs__content" data-tab="1">
+                <h2>HTML Tab</h2>
+                <p>HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext Markup Language, and Web page.</p><br>
+                <p>Hyper Text: HyperText simply means "Text within Text." A text has a link within it, is a hypertext. Whenever you click on a link which brings you to a new webpage, you have clicked on a hypertext. HyperText is a way to link two or more web pages (HTML documents) with each other.</p>
+            </div>
+            <div class="tabs__content" data-tab="2">
+                <h2>CSS Tab</h2>
+                <p>CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML. It is generally used with HTML to change the style of web pages and user interfaces. It can also be used with any kind of XML documents including plain XML, SVG and XUL.</p><br>
+                <p>CSS is used along with HTML and JavaScript in most websites to create user interfaces for web applications and user interfaces for many mobile applications.</p>
+            </div>
+            <div class="tabs__content" data-tab="3">
+                <h2>JavaScript Tab</h2>
+                <p>JavaScript (js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages. It is an interpreted, full-fledged programming language that enables dynamic interactivity on websites when applied to an HTML document. It was introduced in the year 1995 for adding programs to the webpages in the Netscape Navigator browser. Since then, it has been adopted by all other graphical web browsers. With JavaScript, users can build modern web applications to interact directly without reloading the page every time. The traditional website uses js to provide several forms of interactivity and simplicity.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
